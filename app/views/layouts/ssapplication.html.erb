@@ -1,0 +1,586 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0038)http://acarae.com/events/1/agendas/new -->
+<html lang="en-US" xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Acarae - Powering Enterprise Events</title>
+
+          <%= stylesheet_link_tag "ag/reset"%>
+           <%= stylesheet_link_tag "ag/layout"%>
+           <%= stylesheet_link_tag "ag/header"%>
+           <%= stylesheet_link_tag "ag/overrides"%>
+           <%= stylesheet_link_tag "ag/menu"%>
+           <%= stylesheet_link_tag "ag/tables"%>
+           <%= stylesheet_link_tag "ag/jquery-ui-1.8.7.custom"%>
+           <%= stylesheet_link_tag "ag/formtastic"%>
+           <%= stylesheet_link_tag "ag/formtastic_changes"%>
+
+
+        <%= javascript_include_tag "ag/ga"%>
+        <%= javascript_include_tag "ag/jquery-ui-1.8.7.custom.min"%>
+        <%= javascript_include_tag "ag/livevalidation-1.3.min"%>
+        <%= javascript_include_tag "ag/formtastic_validation-0.1.2.min"%>
+        <%= javascript_include_tag "application"%>
+
+
+
+
+    <script type="text/javascript">
+//<![CDATA[
+jquery.hotkeys
+//]]>
+</script>
+  <script type="text/javascript">
+    function initialize() {
+        var formtasticValidation = new FormtasticValidation;
+        formtasticValidation.initialize();
+        if (typeof mapInitialize == 'function') { mapInitialize(); }
+    }
+  </script>
+</head>
+
+
+  <body onload="initialize()">
+    <div id="main_container">
+      <div class="content_holder">
+        <div class="header">
+  <div class="logo"><img alt="Acarae" src="./Acarae - Powering Enterprise Events_files/logo.jpg"></div>
+  <div class="header_right">
+    <div class="header_menu">
+  <ul class="basictab"><li class=""><a href="http://acarae.com/accounts/1?locale=en">Dashboard</a></li><li class="selected"><a href="http://acarae.com/accounts/1/events">Events</a></li><li class=""><a href="http://acarae.com/accounts/1/contacts">Contacts</a></li></ul>
+</div>
+
+    <div class="header_links_box">
+  <div class="header_links">
+      <span class="header_links_user">
+        john doe
+      </span> |
+      <a href="http://acarae.com/users/1?locale=en">Settings</a> |
+      <a href="http://acarae.com/session" onclick="var f = document.createElement(&#39;form&#39;); f.style.display = &#39;none&#39;; this.parentNode.appendChild(f); f.method = &#39;POST&#39;; f.action = this.href;var m = document.createElement(&#39;input&#39;); m.setAttribute(&#39;type&#39;, &#39;hidden&#39;); m.setAttribute(&#39;name&#39;, &#39;_method&#39;); m.setAttribute(&#39;value&#39;, &#39;delete&#39;); f.appendChild(m);var s = document.createElement(&#39;input&#39;); s.setAttribute(&#39;type&#39;, &#39;hidden&#39;); s.setAttribute(&#39;name&#39;, &#39;authenticity_token&#39;); s.setAttribute(&#39;value&#39;, &#39;r7JfFIiXOJ0NGtM37WRxUfqovH+b0KVEJGM8Xj+Sbfg=&#39;); f.appendChild(s);f.submit();return false;">Logout</a>
+  </div>
+
+  <div class="search_box">
+    <div class="search_right"></div>
+    <div class="search_content">
+<form action="http://acarae.com/accounts/1/searches" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="r7JfFIiXOJ0NGtM37WRxUfqovH+b0KVEJGM8Xj+Sbfg="></div>          <input class="search_textbox" id="account_search_query" name="account_search[query]" size="25" type="text">
+          <input id="account_search_account_id" name="account_search[account_id]" type="hidden" value="1">
+</form>    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+        <div id="loadingDiv" style="display: none; "></div>
+        <div class="content">
+
+          <a href="http://acarae.com/accounts/1?locale=en">Home</a> » <a href="http://acarae.com/accounts/1/events">Events</a>
+
+            <div class="main_title">mozart: Add Agenda Item</div>
+
+          <div id="flashes"></div>
+
+          <div class="menu_tab_container">
+            <div class="menu_tab">
+                <ul><li class=""><a href="http://acarae.com/accounts/1/events/1?locale=en">Event Details</a></li><li class="selected"><a href="http://acarae.com/events/1/agendas">Customize</a></li><li class=""><a href="http://acarae.com/events/1/previews/1?locale=en">Preview</a></li><li class=""><a href="http://acarae.com/events/1/registrations">Registrants</a></li><li class=""><a href="http://acarae.com/events/1/reports/1?locale=en">Reports</a></li></ul>
+
+            </div>
+            <div class="clear_all"></div>
+          </div>
+
+          <div class="content_container">
+            <div class="sidebar">
+              <div class="custom_list">
+                <ul>
+                     <li class="ico_agenda selected"><a href="http://acarae.com/events/1/agendas">Agenda</a></li><li class="ico_speaker"><a href="http://acarae.com/events/1/speakers">Speakers</a></li><li class="ico_tickets2"><a href="http://acarae.com/events/1/email_templates">Email Templates</a></li><li class="ico_tickets"><a href="http://acarae.com/events/1/tickets">Tickets</a></li><li class="ico_regform"><a href="http://acarae.com/events/1/contact_form_fields/1/edit?locale=en">Form Fields</a></li><li class="ico_template"><a href="http://acarae.com/events/1/design_customizations/1/edit?locale=en">Template</a></li>
+
+                </ul>
+              </div>
+            </div>
+           <!-- <div class="main_content">
+
+
+<form action="http://acarae.com/events/1/agendas" class="formtastic agenda_item" id="new_agenda_item" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="r7JfFIiXOJ0NGtM37WRxUfqovH+b0KVEJGM8Xj+Sbfg="></div>
+<fieldset class="inputs"><ol>    <li class="string required" id="agenda_item_title_input"><label for="agenda_item_title">Title*</label><input id="agenda_item_title" maxlength="255" name="agenda_item[title]" size="30" type="text"></li>
+    <li class="datetime required" id="agenda_item_starts_at_input"><fieldset><legend class="label"><label for="agenda_item_starts_at_1i">Start Time*</label></legend><ol><li><label for="agenda_item_starts_at_1i">Year</label><select id="agenda_item_starts_at_1i" name="agenda_item[starts_at(1i)]">
+<option value=""></option>
+<option value="2006">2006</option>
+<option value="2007">2007</option>
+<option value="2008">2008</option>
+<option value="2009">2009</option>
+<option value="2010">2010</option>
+<option selected="selected" value="2011">2011</option>
+<option value="2012">2012</option>
+<option value="2013">2013</option>
+<option value="2014">2014</option>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+</select>
+</li><li><label for="agenda_item_starts_at_2i">Month</label><select id="agenda_item_starts_at_2i" name="agenda_item[starts_at(2i)]">
+<option value=""></option>
+<option value="1">January</option>
+<option value="2">February</option>
+<option value="3">March</option>
+<option selected="selected" value="4">April</option>
+<option value="5">May</option>
+<option value="6">June</option>
+<option value="7">July</option>
+<option value="8">August</option>
+<option value="9">September</option>
+<option value="10">October</option>
+<option value="11">November</option>
+<option value="12">December</option>
+</select>
+</li><li><label for="agenda_item_starts_at_3i">Day</label><select id="agenda_item_starts_at_3i" name="agenda_item[starts_at(3i)]">
+<option value=""></option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option selected="selected" value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+</li><li><label for="agenda_item_starts_at_4i">Hour</label><select id="agenda_item_starts_at_4i" name="agenda_item[starts_at(4i)]">
+<option value=""></option>
+<option selected="selected" value="00">00</option>
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+</select>
+</li><li><label for="agenda_item_starts_at_5i">Minute</label><select id="agenda_item_starts_at_5i" name="agenda_item[starts_at(5i)]">
+<option value=""></option>
+<option selected="selected" value="00">00</option>
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="37">37</option>
+<option value="38">38</option>
+<option value="39">39</option>
+<option value="40">40</option>
+<option value="41">41</option>
+<option value="42">42</option>
+<option value="43">43</option>
+<option value="44">44</option>
+<option value="45">45</option>
+<option value="46">46</option>
+<option value="47">47</option>
+<option value="48">48</option>
+<option value="49">49</option>
+<option value="50">50</option>
+<option value="51">51</option>
+<option value="52">52</option>
+<option value="53">53</option>
+<option value="54">54</option>
+<option value="55">55</option>
+<option value="56">56</option>
+<option value="57">57</option>
+<option value="58">58</option>
+<option value="59">59</option>
+</select>
+</li></ol></fieldset></li>
+    <li class="datetime required" id="agenda_item_ends_at_input"><fieldset><legend class="label"><label for="agenda_item_ends_at_1i">End Time*</label></legend><ol><li><label for="agenda_item_ends_at_1i">Year</label><select id="agenda_item_ends_at_1i" name="agenda_item[ends_at(1i)]">
+<option value=""></option>
+<option value="2006">2006</option>
+<option value="2007">2007</option>
+<option value="2008">2008</option>
+<option value="2009">2009</option>
+<option value="2010">2010</option>
+<option selected="selected" value="2011">2011</option>
+<option value="2012">2012</option>
+<option value="2013">2013</option>
+<option value="2014">2014</option>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+</select>
+</li><li><label for="agenda_item_ends_at_2i">Month</label><select id="agenda_item_ends_at_2i" name="agenda_item[ends_at(2i)]">
+<option value=""></option>
+<option value="1">January</option>
+<option value="2">February</option>
+<option value="3">March</option>
+<option selected="selected" value="4">April</option>
+<option value="5">May</option>
+<option value="6">June</option>
+<option value="7">July</option>
+<option value="8">August</option>
+<option value="9">September</option>
+<option value="10">October</option>
+<option value="11">November</option>
+<option value="12">December</option>
+</select>
+</li><li><label for="agenda_item_ends_at_3i">Day</label><select id="agenda_item_ends_at_3i" name="agenda_item[ends_at(3i)]">
+<option value=""></option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option selected="selected" value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+</li><li><label for="agenda_item_ends_at_4i">Hour</label><select id="agenda_item_ends_at_4i" name="agenda_item[ends_at(4i)]">
+<option value=""></option>
+<option value="00">00</option>
+<option selected="selected" value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+</select>
+</li><li><label for="agenda_item_ends_at_5i">Minute</label><select id="agenda_item_ends_at_5i" name="agenda_item[ends_at(5i)]">
+<option value=""></option>
+<option selected="selected" value="00">00</option>
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="37">37</option>
+<option value="38">38</option>
+<option value="39">39</option>
+<option value="40">40</option>
+<option value="41">41</option>
+<option value="42">42</option>
+<option value="43">43</option>
+<option value="44">44</option>
+<option value="45">45</option>
+<option value="46">46</option>
+<option value="47">47</option>
+<option value="48">48</option>
+<option value="49">49</option>
+<option value="50">50</option>
+<option value="51">51</option>
+<option value="52">52</option>
+<option value="53">53</option>
+<option value="54">54</option>
+<option value="55">55</option>
+<option value="56">56</option>
+<option value="57">57</option>
+<option value="58">58</option>
+<option value="59">59</option>
+</select>
+</li></ol></fieldset></li>
+    <li class="string optional" id="agenda_item_location_input"><label for="agenda_item_location">Location (eg. Hall 1, Hall 2)</label><input id="agenda_item_location" maxlength="255" name="agenda_item[location]" size="30" type="text"></li>
+    <li class="text optional" id="agenda_item_abstract_input"><label for="agenda_item_abstract">Abstract</label><textarea cols="30" id="agenda_item_abstract" name="agenda_item[abstract]" rows="20"></textarea></li>
+    <li class="hidden optional" id="agenda_item_event_agenda_id_input"><input id="agenda_item_event_agenda_id" name="agenda_item[event_agenda_id]" type="hidden" value="1"></li>
+    <div id="speakers_table">
+  <h4>Speakers</h4>
+  <table class="speaker_list">
+    <thead style="display: none; ">
+      <tr>
+        <th>Name</th>
+        <th>Remarks (eg. presenter, panelist)</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="speakers">
+      <tr id="no_items">
+        <td colspan="3">There are no speakers for this agenda item.</td>
+      </tr>
+      <tr>
+        <td colspan="3"><a href="http://acarae.com/events/1/agendas/new#" class="add_speaker">Add Speaker</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</ol></fieldset>
+<script type="text/javascript">
+  $(function() {
+    function setSpeaker(speaker, tr) {
+      if (speaker) {
+        tr.find('.speaker_id').val(speaker.id);
+      }
+      else {
+        tr.find('.speaker_id').val('');
+      }
+    }
+
+    function autocompleteSpeaker(tr) {
+      $(tr).find('.speaker_name').autocomplete({
+                        source: "/events/1/speakers.json",
+                        minLength: 2,
+                        select: function(event, ui) {
+                          setSpeaker(ui.item, tr);
+                        }
+      });
+     }
+
+    function addSpeaker(tr) {
+      var newSpeaker;
+      if (tr.is('.speaker')) {
+        tr.after(constructRow());
+        newSpeaker = tr.next('tr');
+      }
+      else {
+        tr.before(constructRow());
+        newSpeaker = tr.prev('tr');
+      }
+      blankSlate();
+      autocompleteSpeaker(newSpeaker);
+      newSpeaker.find('.speaker_name:first').focus();
+    }
+
+    function removeSpeaker(elm) {
+      var item_id = $(elm).siblings('input.id').val();
+      var tr = $(elm).parents('tr:first');
+      if (item_id && item_id != '') {
+        tr.find('input.mark_delete').val('true');
+        tr.hide();
+      }
+      else {
+        tr.remove();
+      }
+      blankSlate();
+    }
+
+    function blankSlate() {
+      if ($('#speakers > tr.speaker:visible').length == 0) {
+        $('thead').hide();
+        $('#no_items').show();
+      }
+      else {
+        $('thead').show();
+        $('#no_items').hide();
+      }
+    }
+
+    function constructRow() {
+      return '<tr class="speaker">' +
+        '<td>' +
+          '<input class="speaker_name" name="agenda_speaker[][speaker_name]" type="text" value="" />' +
+          '<input class="speaker_id" name="agenda_speaker[][event_speaker_id]" type="hidden" value="" />' +
+        '</td>' +
+
+        '<td>' +
+          '<input class="speaker_remarks" name="agenda_speaker[][remarks]" type="text" value="" />' +
+        '</td>' +
+
+        '<td>' +
+          '<img title="Remove" class="delete" src="/images/trash-s.png" />' +
+          '<input name="agenda_speaker[][id]" type="hidden" class="id" />' +
+          '<input name="agenda_speaker[][mark_delete]" type="hidden" class="mark_delete" />' +
+        '</td>' +
+      '</tr>';
+    }
+
+    blankSlate();
+    $(".speaker").each(function() {
+      autocompleteSpeaker($(this));
+    });
+
+    $('#speakers > tr.speaker').find('img.delete').live('click', function() {
+      removeSpeaker(this);
+    });
+
+    $('.add_speaker').click(function(event) {
+      event.preventDefault();
+      addSpeaker($(this).parents('tr:first'));
+    });
+
+  });
+</script>
+
+<fieldset class="buttons"><ol>    <input name="add" src="./Acarae - Powering Enterprise Events_files/add_button.jpg" type="image">
+</ol></fieldset></form>
+
+
+            </div> -->
+
+<div  class="main_content"><%= yield  %></div>
+       <!--    <div id='calendar'></div>-->
+
+
+            <div class="clear_all"></div>
+          </div>
+
+        </div> <!-- content -->
+      </div> <!-- content_holder -->
+    </div> <!-- main_container -->
+    <div class="footer">
+  <div class="footer_content">
+    <div class="footer_links">
+      <a href="http://acarae.com/">Home</a> |
+      <a href="http://acarae.com/features">Features</a> |
+      <a href="http://acarae.com/about">About Us</a> |
+      <a href="http://acarae.com/terms">Terms</a> |
+      <a href="http://acarae.com/privacy">Privacy</a> |
+      <a href="http://acarae.com/contact">Contact</a> |
+      <a href="http://acarae.com/help">Help</a>
+    </div>
+    Copyright © 2011. Acarae Pte Ltd. All rights reserved.
+  </div>
+</div>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12067035-1']);
+  _gaq.push(['_setDomainName', '.acarae.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  var formInputs = $(':input');
+  if (formInputs.length > 0) {
+    formInputs[1].focus();
+  }
+</script>
+
+
+
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div></body></html>

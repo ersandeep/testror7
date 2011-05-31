@@ -1,0 +1,176 @@
+form.formtastic {
+    padding-top: 2em;
+}
+
+form.formtastic fieldset > ol > li fieldset legend {
+    display: inline-block;
+}
+
+form.formtastic fieldset > ol > li label {
+    margin-left: 2em;
+    width: 12em;
+}
+
+form.formtastic fieldset > legend > span,
+form.formtastic fieldset > ol > li fieldset legend.label label {
+    color: #666666;
+}
+
+form.formtastic fieldset > legend > span {
+    font-weight: bold;
+}
+
+form.formtastic fieldset > legend {
+    margin: 0em 0em 1em 0em;
+}
+
+form > div.table_actions > ul > li > input[type="submit"],
+form > div.buttons_right > ul > li > input[type="submit"],
+form > div.buttons_left > ul > li > input[type="submit"],
+form.formtastic input[type="submit"] {
+    font: bold 12px Tahoma, Arial, Verdana;
+    line-height: 15px;
+    padding: 3px;
+    color: #1474bd;
+}
+
+form > div.buttons_right > ul > li > input[type="submit"],
+form > div.buttons_left > ul > li > input[type="submit"] {
+    display: block;
+}
+
+form.formtastic fieldset.buttons {
+    height: 30px;
+}
+
+form.formtastic fieldset > ol > li.text textarea {
+    width: 40%;
+    height: 10em;
+}
+
+form.formtastic fieldset.buttons { padding-left:60%; }
+
+form.formtastic fieldset.buttons > ol {
+    float: left;
+}
+
+form.formtastic fieldset.inputs > ol > li input {
+    width: 25%;
+    padding: 3px;
+}
+
+form.formtastic fieldset.inputs > ol > li select {
+    width: 25%;
+    padding: 3px;
+}
+
+form.formtastic fieldset.inputs > ol > li > fieldset ol {
+    float:left;
+    width:74%;
+    margin:0;
+    padding:0 0 0 14em;
+}
+form.formtastic fieldset.inputs > ol > li > fieldset ol > li {
+    margin: 0em 1em 0em 0em;
+}
+form.formtastic fieldset.inputs > ol > li > fieldset > ol > li  label {
+    float: left;
+    display: block;
+    width: auto;
+    margin: 0em 0.5em 0em 0em;
+}
+
+form.formtastic fieldset.inputs > ol > li > fieldset > ol > li select {
+    width: auto;
+}
+
+form.formtastic fieldset.inputs > ol > li > fieldset ol.check_boxes {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+form.formtastic fieldset.inputs > ol > li > fieldset ol.check_boxes label {
+    width: 10%;
+}
+
+/* login form */
+div.login_form > form.formtastic fieldset > ol > li label {
+    width: 20%;
+}
+
+div.login_form > form.formtastic fieldset.inputs > ol > li input {
+    width: 13em;
+    padding: 3px;
+}
+
+div.login_form > form.formtastic fieldset.buttons {
+    padding-left:35%;
+}
+
+div.login_form > form.formtastic fieldset.buttons {
+    height: 30px;
+}
+
+div.login_form > form.formtastic fieldset.buttons > ol {
+    margin: 0px;
+    float: none;
+}
+
+table tr td input[type="checkbox"], table tr th input[type="checkbox"] {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+form.formtastic.contact_field li,
+form.formtastic.contact_form li {
+    list-style:  none;
+}
+
+form.formtastic.contact_form > table#contact_form tbody > tr > td > li > input[type="text"] {
+    width: 8em;
+}
+
+form.formtastic.contact_form > table#contact_form > tbody > tr > td > li > fieldset > ol > li {
+    display: inline-block;
+    margin: 0;
+}
+
+form.formtastic.contact_form > table#contact_form > tbody > tr > td > li > fieldset > ol > li > label {
+    width: 4em;
+}
+
+/* shopping cart ticket table form fields */
+form.formtastic.shopping_cart {
+    margin-top: 0;
+}
+
+form.formtastic.shopping_cart > table#event_ticket > tbody > tr > td > input {
+    width: 4em;
+}
+
+form.formtastic.shopping_cart fieldset.buttons {
+    margin-top: 1em;
+    padding-right: 2em;
+    float: right;
+}
+
+form.formtastic fieldset.align_left {
+    padding-left: 45%;
+}
+
+/* shopping cart billing details form */
+form.formtastic.billing_details {
+    margin-top: 0;
+    margin-left: 1em;
+}
+
+form.paypal {
+    font: bold 12px Tahoma, Arial, Verdana;
+    line-height: 15px;
+    padding: 3px;
+    color: #1474bd;
+    position: absolute;
+    left: 426px;
+    top: 219px;
+}

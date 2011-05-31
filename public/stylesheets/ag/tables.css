@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+table.standalone {
+    width: 100%;
+    vertical-align:top;
+    line-height: 1.8em;
+    text-align:right;
+}
+
+table.search_results {
+    width: 100%;
+    vertical-align:top;
+    text-align:right;
+    line-height: 1.8em;
+    border-top: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+
+table.embedded {
+    width: 700px;
+    line-height: 1.8em;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+
+div.table_actions {
+    background-color: #f2f2f2;
+    height: 30px;
+    padding: 5px 0px 2px 0px;
+    margin: 20px 0 0 0;
+    border: 1px solid #cccccc;
+    width: 698px;
+}
+
+div.table_actions > ul {
+    margin-left: 1em;
+}
+
+div.table_actions > ul > li {
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+}
+
+table.embedded > thead > tr,
+table.search_results > thead > tr,
+table.standalone > thead > tr {
+    background-color: #f2f8fd;
+    color: #1474bd;
+}
+
+table.embedded > thead > tr > th,
+table.search_results > thead > tr > th,
+table.standalone > thead > tr > th {
+    font-weight: bold;
+}
+
+table.embedded > thead > tr > th > a
+table.search_results > thead > tr > th > a
+table.standalone > thead > tr > th > a {
+    text-decoration: underline;
+}
+
+table.standalone td, .standalone th,
+table.search_results td, .search_results th,
+table.embedded td, .embedded th {
+    padding:5px;
+    vertical-align: middle;
+    border-bottom: 1px solid #cccccc;
+}
+
+table > thead > tr > th.tdw_60 {
+    width: 60px;
+}
+
+table > thead > tr > th.tdw_80 {
+    width: 80px;
+}
+
+table > thead > tr > th.tdw_140 {
+    width: 140px;
+}
+
+table > thead > tr > th.tdw_per_8 {
+    width:8%;
+}
+
+table > thead > tr > th.tdw_per_10 {
+    width:12%;
+}
+
+table > thead > tr > th.tdw_per_15 {
+    width:15%;
+}
+
+table > thead > tr > th.tdw_per_20 {
+    width:20%;
+}
+
+table#contact_form > thead > tr > th {
+    font-weight: bold;
+    padding: 5px;
+}
+
+table#contact_form > tbody > tr > td {
+    padding: 5px;
+}
+
+table#contact_field th,
+table#contact_field td {
+    padding: 3px;
+}
+
+table#contact_field th {
+    font-weight: bold;
+}
+
+/* event ticket table */
+table#event_ticket {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+}
+
+table#event_ticket > thead > tr {
+    background-color: #cccccc;
+}
+
+table#event_ticket th,
+table#event_ticket td {
+    font-size: 1.1em;
+    border-bottom: 1px solid #cccccc;
+    vertical-align: middle;
+}
+
+table#event_ticket th {
+    font-weight: bold;
+    line-height: 1.6em;
+    padding: 3px;
+}
+
+table#event_ticket td {
+    line-height: 1.6em;
+    padding: 3px;
+}
+
+/* speaker list */
+div#speakers_table {
+    margin: 0 0 0 1.5em;
+}
+
+div#speakers_table > h4 {
+    margin: 0 0 1em 0;
+}
+
+/* sortable tables */
+th.ascending a {
+    background: url('/images/sort_arrow_up.png') 0% 50% no-repeat;
+    padding-left: 16px;
+}
+
+th.descending a {
+    background: url('/images/sort_arrow_down.png') 0% 50% no-repeat;
+    padding-left: 16px;
+}

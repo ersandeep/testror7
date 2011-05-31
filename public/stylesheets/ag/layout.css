@@ -1,0 +1,328 @@
+@charset "utf-8";
+/* CSS Document */
+body,td,th {
+    font-family: Tahoma, Arial, Verdana;
+    font-size: 11px;
+    color: #666666;
+}
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: #f5f5f5;
+}
+a:link {
+    color: #1474bd;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #1474bd;
+}
+a:hover {
+    text-decoration: underline;
+    color: #FF6600;
+}
+a:active {
+    text-decoration: none;
+    color: #1474bd;
+}
+
+#main_container {
+    width:auto;
+    background:#FFFFFF;
+    background-image: url('/images/header_back.jpg');
+    background-repeat: repeat-x;
+}
+
+.content_holder {
+    width:960px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 20px;
+}
+
+.logo {
+    float:left;
+    width:200px;
+}
+
+.search_box {
+    width:220px;
+    background:url('/images/search_top_01.jpg') no-repeat left center;
+    height:30px;
+    float:right;
+}
+.search_content {
+    float:right;
+    width:165px;
+    height:24px;
+    background:url('/images/search_top_02.jpg') repeat-x left center;
+    padding:6px 0 0 0;
+}
+.search_right {
+    float:right;
+    width:20px;
+    height:30px;
+    background:url('/images/search_top_04.jpg') no-repeat left center;
+}
+.search_textbox {
+    font:normal 11px Tahoma, Arial, Verdana;
+    color:#999999;
+    border:1px solid #FFFFFF;
+}
+
+.search2_box {
+    width:220px;
+    background:url('/images/search_sub_01.gif') no-repeat left center;
+    height:30px;
+    float:right;
+}
+.search2_content {
+    float:right;
+    width:165px;
+    height:24px;
+    background:url('/images/search_sub_02.gif') repeat-x left center;
+    padding:6px 0 0 0;
+}
+.search2_right {
+    float:right;
+    width:20px;
+    height:30px;
+    background:url('/images/search_sub_04.gif') no-repeat left center;
+}
+.search2_textbox {
+    font:normal 11px Tahoma, Arial, Verdana;
+    color:#999999;
+    border:1px solid #FFFFFF;
+}
+
+.search2_textbox {
+    font:normal 11px Tahoma, Arial, Verdana;
+    color:#999999;
+    border:1px solid #f6f6f6;
+    background-color: #f6f6f6;
+}
+.content {
+    padding:5px 10px 10px 10px;
+}
+
+div.bordered_container {
+    width:938px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 1em;
+    border:1px solid #CCCCCC;
+}
+
+div.bordered_container > div.buttons {
+    margin: 0 0 0 1em;
+}
+
+div.blank_slate {
+    margin: 15px 0px 15px 0px;
+    font: bold 14px Arial, Helvetica, sans-serif;
+    color: #1474bd;
+}
+
+div.blank_slate a {
+    text-decoration: underline;
+}
+
+#flashes {
+    width:100%;
+    margin-bottom: 10px;
+}
+
+#flashes span.msg {
+    padding-left: 40px;
+    font: bold 1.5em Tahoma, Arial, Verdana;
+    line-height: 30px;
+}
+
+#flashes .success,
+#flashes .notice {
+    padding:10px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#e7f7d0;
+    border:1px solid #65a714;
+}
+
+#flashes .error,
+#flashes .failure {
+    padding:15px;
+    margin-left:auto;
+    margin-right:auto;
+    border:1px solid #f12626;
+    background-color:#f9dcdc;
+}
+
+#flashes .success #icon,
+#flashes .notice #icon {
+    float:left;
+    padding:16px;
+    background:url('/images/ico_success.jpg') no-repeat center left;
+}
+
+#flashes .error #icon,
+#flashes .failure #icon {
+    float:left;
+    padding:16px;
+    background:url('/images/ico_failed.jpg') no-repeat center left;
+}
+
+#flashes div#close {
+    float:right;
+    height: 15px;
+    width: 15px;
+    background:url('/images/ico_close.jpg') no-repeat top right;
+}
+
+.content_container {
+    width:938px;
+    margin-left:auto;
+    margin-right:auto;
+    border-left: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    padding-bottom:20px;
+}
+
+div.content_container > div.main_content {
+    float: right;
+    width: 75%;
+}
+
+div.content_container > div.sidebar {
+    float:left;
+    width: 25%;
+}
+.footer {
+    width:auto;
+    background-color: #f5f5f5;
+    border-top: 1px solid #CCCCCC;
+    padding:20px 10px 10px 10px;
+}
+
+.footer_content {
+    width:938px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.footer_links {
+    float:right;
+    width:450px;
+    text-align:right;
+}
+
+.footer_links a{
+    padding:0 5px 0 5px;
+}
+
+div.login_logo > img {
+    vertical-align: text-bottom;
+}
+
+div.login_container {
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+    font-size: 12px;
+}
+
+div.login_container > div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+div.login_container > div.login_links {
+    width: 40%;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+div.login_container > div.login_logo > p.message {
+    font-size: 1.2em;
+    margin: 1em 0 0 0;
+}
+
+div.content_box {
+    font-size: 1.2em;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+div.content_box > h1.page_title {
+    font-size: 2.5em;
+    color: #333333;
+}
+
+div.content_box p {
+    margin: 1em 0em 1em 0em;
+}
+
+div.content_box ol.decimal {
+    list-style-type: decimal;
+    margin-left: 2em;
+}
+
+div.content_box ul.circle {
+    list-style-type: circle;
+    margin-left: 2em;
+}
+
+div.content_box pre {
+    background-color: #f5f5f5;
+    font:bold 12px Courier;
+    padding: 1em;
+}
+
+div.content_box h2 {
+    font-size: 1.6em;
+    color: #278edd;
+}
+
+div.content_box h3 {
+    font-weight: bold;
+    margin: 0em 0em 0.5em 0em;
+}
+
+div.content_box > ul.features > li {
+    border: 1px solid #dadde0;
+    margin: 0px 0px 15px 0px;
+}
+
+div.content_box > ul.features > li > div.title {
+    padding: 10px 0px 10px 10px;
+    border-bottom: 1px solid #dadde0;
+    background-color: #e9eff3;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+div.content_box > ul.features > li > div.screen_shot {
+    float: right;
+    border: 1px solid #dadde0;
+    margin: 10px 10px 10px 0px;
+}
+div.content_box > ul.features > li > div.description {
+    float: left;
+    width: 50%;
+    margin: 10px 0px 0px 10px;
+}
+
+div#loadingDiv {
+  background-image: url('/images/ajax-loader.gif');
+  position: fixed;
+  width: 32px;
+  height: 32px;
+  top: 50%;
+  left: 50%;
+}

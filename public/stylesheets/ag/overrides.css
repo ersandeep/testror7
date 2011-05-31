@@ -1,0 +1,364 @@
+.main_title {
+    font:normal 24px Arial, Helvetica, sans-serif;
+    color:#666666;
+    line-height: 40px;
+    padding-bottom:10px;
+}
+
+.subtab_back {
+    background: url('/images/button_back.jpg') repeat-x;
+    height: 30px;
+    padding: 5px 10px 2px 10px;
+    width:918px;
+    display:inline-block;
+}
+
+.subtab_back2 {
+    background: url('/images/button_back.jpg') repeat-x;
+    height: 30px;
+    padding: 5px 8px 2px 10px;
+    margin-bottom: 10px;
+    width:920px;
+    display:inline-block;
+    border-right: 1px solid #cccccc;
+}
+
+.clear_all {
+    clear:both;
+}
+
+.subtab_search_box {
+    float:right;
+    width: 250px;
+}
+
+a.squarebutton {
+    background: transparent url('/images/button_01.jpg') no-repeat top left;
+    display: block;
+    float: left;
+    font: bold 11px Tahoma, Arial, Verdana; /* Change 12px as desired */
+    line-height: 15px; /* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 23px) */
+    height: 26px; /* Height of button background height */
+    padding-left: 9px; /* Width of left menu image */
+    text-decoration: none;
+}
+
+a:link.squarebutton, a:visited.squarebutton, a:active.squarebutton{
+    color: #1474bd;
+}
+
+a.squarebutton span{
+    background: transparent url('/images/button_02.jpg') no-repeat top right;
+    display: block;
+    padding: 6px 9px 5px 0; /*Set 9px below to match value of 'padding-left' value above*/
+}
+
+a.squarebutton:hover{
+    background-position: bottom left;
+}
+
+a.squarebutton:hover span{
+    background-position: bottom right;
+    color: #1474bd;
+}
+
+div.buttons {
+    margin: 15px 0px 0px 0px;
+}
+
+/* Container you can use to surround a CSS button to clear float */
+div.buttons > div.buttonwrapper {
+    overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+    width: auto;
+    float:left;
+    margin-right: 10px;
+}
+
+.text_blue_bold {
+    color: #1072bb;
+    font:bold 11px Tahoma, Arial, Verdana;
+}
+
+.text_blue_normal{
+    color: #1072bb;
+    font:normal 11px Tahoma, Arial, Verdana;
+}
+
+div.buttons_right {
+    float: right;
+    width: auto;
+}
+
+div.buttons_left {
+    float: left;
+    width: auto;
+}
+
+div.buttons_right > ul > li {
+    display: inline-block;
+    margin: 0px 0px 0px 10px;
+}
+
+div.buttons_left > ul > li {
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+}
+
+.list_yellow li{
+    list-style-type:none;
+    background:url('/images/arrow_yellow.jpg') no-repeat center left;
+    line-height:20px;
+}
+
+.list_yellow li a{
+    padding-left:20px;
+    line-height:18px;
+}
+
+.my_textbox {
+    padding:4px;
+    border:1px solid #999999;
+    font:normal 11px Tahoma, Arial, Verdana;
+    color:#666666;
+}
+
+.my_list {
+    padding:2px;
+    border:1px solid #999999;
+    font:normal 11px Tahoma, Arial, Verdana;
+    color:#666666;
+}
+
+.az_list {
+    padding:3px 10px 15px 15px;
+}
+
+.az_list a{
+    padding:0px 8px 0px 8px;
+    font-weight: bold;
+}
+
+div.alphabetical_pagination {
+    text-align: center;
+    padding: 15px 0px 15px 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+div.alphabetical_pagination > ul > li {
+    display: inline;
+    padding: 0px 18px 0px 0px;
+}
+
+div.alphabetical_pagination > ul > li > a {
+    font-weight: bold;
+}
+
+.page_numbers {
+    padding:10px;
+    width:210px;
+    text-align:right;
+    float:right;
+}
+
+.table_text {
+    padding:0;
+    margin:0;
+}
+
+div.sidebar > div.custom_list {
+    margin: 20px 20px 0px 20px;
+}
+
+div.sidebar > div.custom_list li{
+    padding: 10px 10px 15px 35px;
+}
+
+div.sidebar > div.custom_list li.ico_agenda{
+    background: url('/images/ico_agenda.jpg') no-repeat;
+    line-height: 5px;
+}
+
+div.sidebar > div.custom_list li.ico_speaker{
+    background: url('/images/ico_speaker.jpg') no-repeat;
+    line-height: 5px;
+}
+
+div.sidebar > div.custom_list li.ico_logo{
+    background: url('/images/ico_logo.jpg') no-repeat;
+    line-height: 5px;
+}
+
+div.sidebar > div.custom_list li.ico_tickets{
+    background: url('/images/ico_tickets.jpg') no-repeat;
+    line-height: 5px;
+}
+
+div.sidebar > div.custom_list li.ico_template{
+    background: url('/images/ico_template.jpg') no-repeat;
+    line-height: 5px;
+}
+
+div.sidebar > div.custom_list li.ico_regform{
+    background: url('/images/ico_regform.jpg') no-repeat;
+    line-height: 5px;
+}
+
+div.sidebar > div.custom_list li.ico_password{
+    background: url('/images/ico_password.jpg') no-repeat;
+    line-height: 5px;
+}
+
+div.sidebar > div.custom_list li.ico_paypal{
+    background: url('/images/ico_paypal.jpg') no-repeat;
+    line-height: 5px;
+}
+
+div.sidebar > div.custom_list li.ico_profile{
+    background: url('/images/ico_profile.jpg') no-repeat;
+    line-height: 5px;
+}
+
+div.sidebar > div.custom_list li.ico_reports {
+    background: url('/images/ico_reports.jpg') no-repeat;
+    line-height: 5px;
+}
+
+div.sidebar > div.custom_list li.ico_search {
+    background: url('/images/ico_search.jpg') no-repeat;
+    line-height: 5px;
+}
+
+div.sidebar > div.custom_list li.ico_tickets2{
+    background: url('/images/ico_tickets2.jpg') no-repeat;
+    line-height: 5px;
+}
+
+div.sidebar > div.custom_list li.ico_users {
+    background: url('/images/ico_users.jpg') no-repeat;
+    line-height: 5px;
+}
+
+div.sidebar > div.custom_list li.selected > a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+div.event_chart_sidebar > p > span.sidebar_event_title {
+    font: bold 1.5em Arial, Helvetica, sans-serif;
+    color:#1474bd;
+}
+
+.text_dash_title {
+    font:bold 14px Arial, Helvetica, sans-serif;
+    color:#1474bd;
+}
+
+.text_dash_number {
+    font:bold 24px Arial, Helvetica, sans-serif;
+    color:#1474bd;
+    line-height: 32px;
+}
+
+/* google charts */
+.event_report_chart {
+    width: 640px;
+    height: 240px;
+}
+
+/* event details */
+div.dashboard_event {
+    margin-top: 1em;
+    padding-bottom: 1em;
+    border: 1px solid #CCCCCC;
+}
+
+div.event_chart_sidebar {
+    width: 25%;
+    float: left;
+    margin: 10px 0px 0px 10px;
+}
+
+div.event_chart_sidebar > p {
+    margin: 1em 0 0 1em;
+}
+
+div.event_chart {
+    width: 70%;
+    float: right;
+    margin-top: 10px;
+}
+
+div.event_details {
+    color: #1072bb;
+    margin: 2em 2em 0 2em;
+}
+
+div.event_details > ul > li {
+    padding: 0.5em 0 0.5em 0;
+}
+
+div.event_details > ul > li > span.label {
+    color: #666666;
+}
+
+div.venue_details {
+    margin: 10px 0px 0px 10px;
+    float: left;
+}
+
+div.venue_details > h3 {
+    font: bold 1.25em Arial, Helvetica, sans-serif;
+    margin: 1em 0em 0em 0em;
+}
+
+div.google_map {
+    margin: 10px 10px 0px 0px;
+    width: 70%;
+    height: 350px;
+    float: right;
+}
+
+div.event_report {
+    padding: 2em 0em 0em 2em;
+}
+
+img.speaker_photo {
+    margin: 2em 0em 0em 2em;
+}
+
+div.details {
+    margin: 2em 0em 0em 2em;
+}
+
+div.details > ul > li {
+    margin: 0em 0em 1em 0em;
+}
+
+div.details > ul > li > span.label {
+    font-weight: bold;
+}
+
+div#event_preview > iframe {
+    width: 100%;
+    height: 800px;
+}
+
+div.total_price {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 1em 1em 1em 0;
+    float: right;
+}
+
+h2.shopping_cart_heading {
+    font-size: 1.5em;
+    margin: 1em 0 0 1em;
+}
+
+h2.help_links {
+    margin: 0 0 1em 2em;
+}
+
+h2.help_links.align_left {
+    margin: 0 0 1em 0;
+}

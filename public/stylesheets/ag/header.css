@@ -1,0 +1,53 @@
+div.header {
+    width:960px;
+    margin-left:auto;
+    margin-right: auto;
+    height:92px;
+}
+
+div.header > div.header_right {
+    float:right;
+    width: 670px;
+    height:61px;
+}
+
+div.header > div.header_right > div.header_menu {
+    float:left;
+    width:300px;
+    padding-top:28px;
+}
+
+div.header > div.header_right > div.header_links_box {
+    float:right;
+    width: 300px;
+    height: 61px;
+}
+
+div.header > div.header_right > div.header_links_box > div.header_links {
+    padding: 7px;
+    color: #003366;
+    text-align:right;
+}
+
+div.header > div.header_right > div.header_links_box > div.header_links a {
+    color: #FFF;
+    padding:0 5px 0 5px;
+}
+
+div.header > div.header_right > div.header_links_box > div.header_links a:active {
+    color: #FFF;
+}
+
+div.header > div.header_right > div.header_links_box > div.header_links a:selected {
+    color: #FFF;
+}
+
+div.header > div.header_right > div.header_links_box > div.header_links a:hover {
+    text-decoration:underline;
+}
+
+div.header > div.header_right > div.header_links_box > div.header_links > span.header_links_user {
+    color: #CCE6FF;
+    font:bold 11px Tahoma, Arial, Verdana;
+    padding-right: 5px;
+}

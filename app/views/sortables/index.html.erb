@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+            
+        <%= stylesheet_link_tag "jquery-ui"%>
+         
+
+        <%= javascript_include_tag "jquery.min"%>
+        <%= javascript_include_tag "jquery-ui.min"%>
+
+
+ <head>
+ <style>
+ li {
+	border:1px solid #DADADA;
+	background-color:#EFEFEF;
+	padding:3px 5px;
+	margin-bottom:3px;
+	margin-top:3px;
+	width:100px;
+	list-style-type:circle;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#2599D6;
+	font-size:0.8em;
+   }
+
+li:hover {
+	background-color:#FFF;
+	cursor:move;
+}
+</style>
+
+<script type="text/javascript">
+var setSelector = "#list1";
+$(function() {
+	
+     $(setSelector).sortable({
+		axis: "y",
+		cursor: "move",
+		update: function() {  
+                var p= $(setSelector).sortable("toArray");
+                var stringArray= ""+p+"";
+                $.post('/sortables/updateorder',{changedarray: stringArray },function(data) { });
+                }
+	});
+
+});
+</script>
+
+
+</head>
+<body>
+
+
+<ul id="list1">
+<% for sortable in @sortable do %>
+<li id= <%= sortable.id %> >
+<div><%= sortable.record_text %></div>
+</li>
+<% end %>
+</ul>
+</body>
+</html>
